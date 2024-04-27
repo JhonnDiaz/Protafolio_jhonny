@@ -1,0 +1,114 @@
+
+.seccion {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    padding: 20px; 
+    color: #fff; 
+}
+
+#inicio, #acerca-de, #competencias {
+    background: transparent; 
+}
+
+/*seccion #1*/
+#inicio {
+    padding: 100px 0; /* Agrega espacio alrededor del contenido */
+    color: #fff; /* Color del texto */
+}
+
+#inicio h1.display-3 {
+    font-size: 2.5em; /* Tamaño del texto grande */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+#inicio p.lead {
+    font-size: 1.5em; /* Tamaño del texto más pequeño */
+    margin-bottom: 30px; /* Espacio inferior */
+}
+
+#inicio img {
+    border-radius: 50%; /* Agrega bordes redondeados a la imagen */
+   width: 50%;
+}
+/*seccion 3*/
+#competencias {
+    padding: 100px 0; /* Agrega espacio alrededor del contenido */
+    display: block;
+}
+
+#competencias h2 {
+    font-size: 1.5em; /* Tamaño del título */
+    margin-bottom: 30px; /* Espacio inferior */
+}
+
+.card {
+    border: none; /* Quita el borde de la tarjeta */
+    transition: transform 0.3s; /* Agrega una transición suave al pasar el mouse sobre la tarjeta */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Levanta ligeramente la tarjeta al pasar el mouse */
+}
+
+.card-img-top {
+    border-top-left-radius: 10px; /* Agrega bordes redondeados en la esquina superior izquierda de la imagen */
+    border-top-right-radius: 10px; /* Agrega bordes redondeados en la esquina superior derecha de la imagen */
+}
+
+.card-body {
+    background-color: #f8f9fa; /* Color de fondo del cuerpo de la tarjeta */
+    border-bottom-left-radius: 10px; /* Agrega bordes redondeados en la esquina inferior izquierda del cuerpo de la tarjeta */
+    border-bottom-right-radius: 10px; /* Agrega bordes redondeados en la esquina inferior derecha del cuerpo de la tarjeta */
+}
+
+.card-title {
+    font-size: 1.5rem; /* Tamaño del título de la tarjeta */
+}
+
+.card-text {
+    font-size: 1rem; /* Tamaño del texto de la tarjeta */
+}
+
+
+
+/* Estilos por defecto */
+@media (max-width: 769px) {
+    /* Estilos específicos para pantallas de 769px o menos */
+    /* Ajusta los estilos según sea necesario */
+    #inicio {
+      padding-top: 50px; /* Ejemplo de ajuste de padding */
+    }
+    #inicio h1.display-3 {
+        font-size: 1.5rem; /* Tamaño del texto grande */
+        margin-bottom: 20px; /* Espacio inferior */
+    }
+    #inicio p.lead {
+        font-size: 1rem; /* Tamaño del texto más pequeño */
+        margin-bottom: 30px; /* Espacio inferior */
+    }
+    #inicio img {
+        border-radius: 50%; /* Agrega bordes redondeados a la imagen */
+       width: 80%;
+    }
+
+    .N_img{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .N_img div{
+        width:50% ;
+    } 
+    .S_dis div{
+       
+        width: 50%;
+
+    }
+    .S_dis{
+        font-size: 1rem;
+    }
+  
+  }
+  
