@@ -8,7 +8,7 @@
     });
 }
 function downloadCV() {
-    var cvUrl = "../CV_JhonnyDiaz/Curriculum Jhonny.docx";
+    var cvUrl = "../CV_JhonnyDiaz/Curriculum Jhonny.pdf";
     var link = document.createElement("a");
     link.href = cvUrl;
     link.setAttribute("download", "");
