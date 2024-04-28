@@ -8,7 +8,7 @@
     });
 }
 function downloadCV() {
-    var cvUrl = "ruta/a/tu/cv.pdf";
+    var cvUrl = "static/CV_JhonnyDiaz";
     var link = document.createElement("a");
     link.href = cvUrl;
     link.setAttribute("download", "");
